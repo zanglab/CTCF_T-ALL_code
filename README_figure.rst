@@ -12,7 +12,7 @@ Notes
 
 
 ====
-union CTCF
+Union CTCF
 ====
 
 - occupancy score vs. % motif 
@@ -88,7 +88,7 @@ Hi-C
 
 
 ====
-histone modification
+Histone modification
 ====
 
 - pan cancer
@@ -99,7 +99,7 @@ histone modification
 
 
 ====
-mutation
+Mutation
 ====
 
 - pan cancer (bar plot centered at CTCF +/-200bp)
@@ -120,7 +120,7 @@ Hi-C TADs compared with constitutive CTCF
 
 
 ====
-correlation of CTCF-gene pairs
+Correlation of CTCF-gene pairs
 ====
 
 - scatter plot of CTCF binding vs. gene expr
