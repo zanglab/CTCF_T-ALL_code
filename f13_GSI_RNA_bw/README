@@ -1,0 +1,12 @@
+command line:
+
+python 1_star_rsem_write_slurm.py -i star_rsem_match_name_list.txt  -s hg38 -o slurm_out
+
+NOTES:
+
+1. Remember to revise lines 33-34, suffix of .fq files
+2. Remember to revise lines 50-51, index_file
+
+3. Run the .slurm file under the current directory, e.g., 
+	$ for i in slurm_out/*.slurm;do sbatch $i;done
+

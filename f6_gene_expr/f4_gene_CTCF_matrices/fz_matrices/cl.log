@@ -1,0 +1,3 @@
+1273	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/10_CTCF_binding_signals_vs_gene_expression/fz_gene_CTCF_mete_info/matrix_gene_CTCF_cor_dis_domain_Info_sep_chr/return_geneExpr_CTCF_cor.py .
+1233	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/10_CTCF_binding_signals_vs_gene_expression/fz_gene_CTCF_mete_info/matrix_gene_CTCF_cor_dis_domain_Info_sep_chr/return_gene_CTCF_same_domain_GT100k_LT1M_prediction.py .
+1234	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/10_CTCF_binding_signals_vs_gene_expression/fz_gene_CTCF_mete_info/matrix_gene_CTCF_cor_dis_domain_Info_sep_chr/run_domain_100k_1M.slurm .

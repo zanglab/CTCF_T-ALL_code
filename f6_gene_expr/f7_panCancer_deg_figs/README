@@ -1,0 +1,22 @@
+====
+merge domain DEG info into all-feature-combinaiton files
+	/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/fu_feature_combination
+	f2_combined_sep_cancertype
+	py2_combine_all_features_sep_cancerType.py
+
+then update cancer specific CTCF files
+	/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f3_cancer_specific_gained_lost/
+	f1_cancer_specific_binding
+	py1_identify_cancer_specific_bindings.py
+
+====
+in order to keep record of all results, generate corresponding files under f3_FeatureCombinaiton_CancerSpecificBinding_local
+
+
+====
+py4-py6, plot figs
+
+7_cancer_specific_binding_intra_domain_hicor_sep_CTRL.py
+ you use the control of first cancer type as control for all cancer types, here is the revised one
+
+ 

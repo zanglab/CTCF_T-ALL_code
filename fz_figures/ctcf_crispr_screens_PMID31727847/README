@@ -1,0 +1,10 @@
+data
+	supp data from paper/manuscript
+	processed data
+
+
+essential_genes
+	check if cancer-specific gained/lost CTCFs have more essential genes
+	within the same domain region
+
+

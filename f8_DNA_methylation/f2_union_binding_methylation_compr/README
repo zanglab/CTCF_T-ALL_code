@@ -1,0 +1,15 @@
+f1_signal_binding_csv                        
+	for each CTCF binding and for each data
+	get the methylation states in a 300bp region centered at CTCF
+
+f2_union_binding_differential_DNA_methylation
+	compare the differential methylation state
+	-- keep loci show methylation state/score in both cancer and normal data
+	-- keep record of #loci with differential me. state
+	-- calculate the averaged diff. me. score within the recorded #loci 
+
+py3_methy_compr_add_UnCoScored_regions.py
+	-- same as in py2
+	-- keep tag of those regions do not have co-scored CpG
+        -- #UnionScored is used as #loci with score in either cancer or normal data within 300bps
+

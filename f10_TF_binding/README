@@ -1,0 +1,8 @@
+f2_panCancer_intra_domain_GT100K_LT1M_TF_enrichment  
+	TF enrichment analysis on intra-domain regions that 
+	have increased chromatin contacts with gained CTCF in cancer
+
+f3_TALL_Notch
+	T-ALL gained CTCF ~ NOTCH
+
+	

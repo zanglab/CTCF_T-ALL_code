@@ -1,0 +1,11 @@
+id	name	condition
+A549_rep1	A549_rep1	cancer
+A549_rep2	A549_rep2	cancer
+A549_rep3	A549_rep3	cancer
+A549_S2_rep1	A549_S2_rep1	cancer
+A549_S2_rep2	A549_S2_rep2	cancer
+A549_S2_rep3	A549_S2_rep3	cancer
+A549_S2_rep4	A549_S2_rep4	cancer
+upper_lobe_of_left_lung_S1	upper_lobe_of_left_lung_S1	normal
+upper_lobe_of_left_lung_S2	upper_lobe_of_left_lung_S2	normal
+upper_lobe_of_left_lung_S3	upper_lobe_of_left_lung_S3	normal

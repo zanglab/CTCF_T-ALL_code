@@ -1,0 +1,12 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f7_cancer_type_CTCF_binding_pattern/f1_get_pattern_on_union_bindings/*.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f2_union_CTCFs/fz_union_combination/f2_union_binding_data/union_binding_occupancy_score_GT3.csv  .
+
+tail -n +2 union_binding_occupancy_score_GT3.csv | awk -F "," '{OFS="\t";print$1,$12,$12+1,$4,"0","+"}' > union_binding_occupancy_score_GT3_mid_position.bed
+
+mkdir f1_ctcf_binding_pattern_csv
+
+python py1_write_out_slurm.py 
+for i in f0_slurm/*.slurm;do sbatch $i;done
+
+python py1_write_out_slurm_append.py 
+for i in f0_slurm_append/*.slurm;do sbatch $i;done

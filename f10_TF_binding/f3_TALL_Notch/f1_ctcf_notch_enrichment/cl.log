@@ -1,0 +1,2 @@
+1094	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/18_MYC-ChIP_shCTCF-RNA/MYC_ChIP/f2_TALL_gained_CTCF_MYC_NOTCH1_co_localization/*.py .
+1110	 python py2_NOTCH1_enrichment_layouts.py > out_py2.log

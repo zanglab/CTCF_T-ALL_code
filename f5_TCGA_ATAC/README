@@ -1,0 +1,22 @@
+f0_cancerType_norm_matrix              
+	panCancer overlap peak from each cancer type
+	
+f1_cancer_specific_CTCF_accessibility  
+f3_clinical_survival
+	use cancer specific ATAC peaks (panCancer overlap peak from each cancer type) overlap cancer specific CTCFs
+
+f2_cancer_specific_CTCF_accessibility_panCancer  
+f4_clinical_survival_panCancer
+	use panCancer ATAC peaks overlap cancer specific CTCFs
+	
+f5_TALL_ATAC_RPKM
+f6_TALL_ATAC_raw_count
+	ATAC results comparing Jurkat vs. CD4
+
+
+
+f7_ATAC_CTCF_cor
+	check if at open chromatin regions with CTCF motif present, ATAC-seq signal should highly correlate with CTCF ChIP-seq signal.
+	In other words, check if sites that (are highly accessible chromatin) & (CTCF motif) & (no DNA methylation) & (do not bind by CTCF) exist.
+
+

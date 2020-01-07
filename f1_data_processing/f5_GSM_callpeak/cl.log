@@ -1,0 +1,6 @@
+1037	 python 0_write_out_name_list.py > out_py0.log
+
+1065	 python 1_chipseq_write_slurm_se.py  -i name_list_chipseq_se.txt -o slurm_out -s hg38
+1072	 python 1_chipseq_write_slurm_pe.py -i name_list_chipseq_pe.txt -o slurm_out/ -s hg38 
+
+1006	 python 3_check_finish_re_run.py > out_py3.sh

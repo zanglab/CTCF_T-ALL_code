@@ -1,0 +1,68 @@
+==== 
+union CTCFs 
+====
+
+-- peak_distribution
+python unionCTCF_peak_distribution.py
+
+-- summit intervals 
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f2_union_CTCFs/f1_union_all_summits/py5_plot_summit_intervals.py unionCTCF_summit_intervals.py
+python unionCTCF_summit_intervals.py 
+
+-- occupancy_score_power_model_fit
+python unionCTCF_occupancy_score_power_model_fit.py > log/unionCTCF_occupancy_score_power_model_fit.log
+
+-- occupancy_score_vs_motif 
+python unionCTCF_occupancy_score_vs_motif.py
+
+
+====
+cancer specific
+====
+
+-- CTCF binding comparing T-ALL gained/lost/constitutive
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f5_binding_signal_compr/2_TALL_gained_lost_binding_signal_compr_plot.py .
+
+-- CTCF binding levels compare gained vs. constitutive in cancer datasets
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f5_binding_signal_compr
+
+-- cancer type heatmap
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f1_cancerType_occupancy/4_cancer_normal_occurrence_heatmap_data_plot.py .
+python cancer_specific_occupancy_heatmap.py 
+
+
+-- binding level compare of cancer specific binding CTCF
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f5_binding_signal_compr/2_TALL_gained_lost_binding_signal_compr_plot.py cancer_specific_binding_signal_compr_TALL_gained_lost_constitutive.py
+python cancer_specific_binding_signal_compr_TALL_gained_lost_constitutive.py
+
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f5_binding_signal_compr/4_cancerType_gained_constitutive_signal_compr_plot.py cancer_specific_binding_signal_compr_panCancer_gained_constitutive.py
+python cancer_specific_binding_signal_compr_panCancer_gained_constitutive.py
+
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f6_panCancer_specific_CTCF_overlap/1_cancer_specific_binding_overlap.py cancer_specific_binding_overlap.py
+python cancer_specific_binding_overlap.py
+
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f7_panCancer_specific_CTCF_location/1_cancer_specific_binding_gene_annotation.py cancer_specific_binding_gene_annotation.py 
+python cancer_specific_binding_gene_annotation.py  
+
+
+
+
+====
+TCGA ATAC
+====
+
+-- patient samples chromatin accessibility around cancer specific gained/lost bindings
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f5_TCGA_ATAC/f1_cancer_specific_CTCF_accessibility/2_cancer_specific_binding_ATAC_sig_compr_FoldChange.py cancer_specific_TCGA_ATAC_accessibility_compr.py
+python cancer_specific_TCGA_ATAC_accessibility_compr.py
+
+
+====
+gene expression
+====
+
+-- gene expressin vs. CTCF intra-/inter-domain hi-correlated pairs
+# cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f6_gene_expr/f5_gene_CTCF_cor_figs/genome_intra_inter_domain_cor_compr/8_plot_domain_NoLimit.py gene_expr_CTCF_intra_inter_hicor_compr.py
+python gene_expr_CTCF_intra_inter_hicor_compr.py > log/gene_expr_CTCF_intra_inter_hicor_compr.log
+
+
+

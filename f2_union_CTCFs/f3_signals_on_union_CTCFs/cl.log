@@ -1,0 +1,1 @@
+1080	 for i in run_py1_slurm/*.slurm;do sbatch $i;done

@@ -1,0 +1,43 @@
+
+		a. collect all GSE-GSM info based on series.csv file downloaded from:
+		https://www.ncbi.nlm.nih.gov/geo/browse/
+			NOTES:
+			1. summary: Genome binding/occupancy profiling by high throughput sequencing
+			2. search Homo
+			3. total series, 6878 (20190630)
+
+
+# ijob -A zanglab --mem 80000 -p gpu -t 10:00:00 -n 100
+
+time python 1_searching_GSE_GSM_datasets.py > NCBI_Homo_ChIPseq_GSE_GSM_201906.csv
+
+python 2_scraping_GSM_info.py 
+# or maybe sbatch run_py2.slurm
+# later use this one
+python 2_scraping_GSM_info_append_check_finish.py
+
+# union all GSM info, drop duplicate GSM in multiple GSE (keep only one)
+python 3_combine_f2_info.py 
+
+# find CTCF GSM, add tissue/journal info
+python 4_find_CTCF_ChIPseq.py 
+python 5_read_tissue_info.py  > out_py5.log
+python 6_add_impactFactor.py 
+
+# build black list and read num of peaks from previous analyzed data
+python 7_add_peaks_remove_blacklist.py 
+	NOTES: peaks info were read from 
+	1. peaks of previously processed data:
+		/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/9_get_CTCF_signals_plus_appended_data/f3_union_CTCF_regions/f2_union_all_peaks/f1_peak2000_datasets_and_union_summits/num_peaks.csv
+
+
+## == NEW blacklist was used here ==
+python 7_add_peaks_remove_blacklist_add_new_data.py
+	NOTES: peaks info were read from 
+	1. peaks of previously processed data:
+		/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/9_get_CTCF_signals_plus_appended_data/f3_union_CTCF_regions/f2_union_all_peaks/f1_peak2000_datasets_and_union_summits/num_peaks.csv
+	2. peaks of new processed data:
+		/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f1_data_processing/f5_GSM_callpeak/GSM_CTCF_peaks.csv
+
+# compr with cistromeDB info
+cat human_factor_cistromeDB.txt |grep CTCF > human_factor_cistromeDB_CTCF.txt 

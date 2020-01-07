@@ -1,0 +1,7 @@
+id	name	condition
+MCF-7_rep1	MCF-7_rep1	cancer
+MCF-7_rep2	MCF-7_rep2	cancer
+MCF-7_rep3	MCF-7_rep3	cancer
+breastEpithelium_37yr	breastEpithelium_37yr	normal
+breastEpithelium_51yr	breastEpithelium_51yr	normal
+breastEpithelium_53yr	breastEpithelium_53yr	normal

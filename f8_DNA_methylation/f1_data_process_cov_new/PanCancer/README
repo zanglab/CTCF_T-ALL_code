@@ -1,0 +1,17 @@
+ENCODE
+	processed unionbdg were copied from
+	/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f5_DNA_methylation/PanCancer/f0_ENCODE_data/unionbedg
+
+NCBI
+	processed sorted bdg from raw data (see run.sh for details)
+	/nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f5_DNA_methylation/PanCancer/f0_NCBI_data/data_HTC116
+	
+
+
+PRAD
+	processed data (hg19) from 
+	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86832
+	then convert to bdg, and filter out those region with #reads<=5
+
+
+

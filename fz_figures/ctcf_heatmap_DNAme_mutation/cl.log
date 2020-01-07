@@ -1,0 +1,29 @@
+1012	 mkdir data
+1013	 cd data/
+1021	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f8_DNA_methylation/f3_DNAme_change_bar_plot/6_DNAme_change_bar_CpG_newVersion.py .
+1027	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f8_panCancer_CTCF_binding_pattern/f3_cancerType_CTCF_heatmap/7_CTCF_heatmap_sep_cancer_rerank_by_methylation.py .
+
+1064	 python 6_DNAme_change_bar_CpG_newVersion.py 
+1066	 python 7_CTCF_heatmap_sep_cancer_rerank_by_methylation.py 
+
+1107	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f8_panCancer_CTCF_binding_pattern/f3_cancerType_CTCF_heatmap/6_CTCF_heatmap_TALL_patients_signal_ranked.py  .
+1113	 python 6_CTCF_heatmap_TALL_patients_signal_ranked.py
+
+1170	 mkdir plot_data_mutation
+1171	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f7_ICGC_mutation/panCancer_ICGC/py7_mutation_change_score_figs.py .
+1172	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f7_ICGC_mutation/panCancer_ICGC/f7_mutation_change_bar/*.csv plot_data_mutation/
+1173	 mkdir plot_data_mutation_patients
+1174	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f7_ICGC_mutation/T_ALL_new/f7_mutation_change_bar_TALL/*.csv plot_data_mutation_patients/
+1192	 mv plot_data_mutation_patients/*Jurkat* plot_data_mutation
+1193	 cd plot_data_mutation
+1194	 ls
+1195	 rename Jurkat T-ALL *
+
+
+1124	 cd ../
+1129	 mkdir pancancer_fig
+1130	 mkdir patients_fig
+1131	 ll
+1167	 python meta_plot_pancancer.py 
+
+

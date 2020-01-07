@@ -1,0 +1,2 @@
+python py1_dNOTCH_gainedCTCF_gene_expr_data.py  > out_py1.log
+python py2_dNOTCH_gainedCTCF_gene_expr_plot.py > out_py2.log 

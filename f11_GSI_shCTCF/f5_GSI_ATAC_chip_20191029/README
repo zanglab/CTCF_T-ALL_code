@@ -1,0 +1,12 @@
+====
+f0_process  
+====
+	process the ATAC data
+	
+	
+====	
+f1_results_from_bam
+====
+	use the bam file rather than processed bam/bed file to check the results
+	
+	

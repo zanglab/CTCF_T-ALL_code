@@ -1,0 +1,12 @@
+1033	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/clinical_survival/f3_survival_by_ATAC_diff_score_Z_score/*.py .
+1068	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/clinical_survival/f1_clinical_data_TCGA_ATAC_matchness/py2_Irwin_Hall_caseID_openness_compr.py .
+
+
+
+====
+python py1_TCGA_ATAC_sig_caseID_avg_sig.py       
+python py2_Irwin_Hall_caseID_openness_compr.py  
+python py3_caseID_rank_sum_clinical_info_matched.py 
+python py5_survival_plot_gained.py
+python py6_survival_plot_lost.py1029	 python py9_survival_plot_lost_JSON.py > out_py9.log
+1030	 python py8_survival_plot_gained_JSON.py > out_py8.log

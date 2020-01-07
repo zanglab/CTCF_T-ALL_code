@@ -1,0 +1,28 @@
+f0_infile                    
+	cancer and normal datasets for each cancer type
+	
+f1_cancerType_occupancy    
+	occupancy score of cancer vs. normal for each cancer type
+	
+f2_cancerType_binding_signal
+	binding signals comparing cancer vs. other for each cancer type
+	
+f3_cancer_specific_gained_lost
+	identification of cancer specific gained/lost CTCFs
+	
+f4_constitutive_control
+	select proper control bindings 
+	
+f5_binding_signal_compr
+	compare binding signal of cancer gained CTCFs vs. control
+
+f6_panCancer_specific_CTCF_overlap
+	compare overlapped cancer specific CTCF bindings
+
+f7_panCancer_specific_CTCF_location
+	cancer specific CTCF location/gene annotation
+
+f8_panCancer_CTCF_binding_pattern
+	CTCF binding pattern for each cancer type
+	heatmap of gained/lost CTCF bindings (CTCF mid position  +/- 2kb)
+

@@ -1,0 +1,4 @@
+1678	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f13_ATAC_Jurkat_CD4/f2_signal_on_union/*.py .
+1691	 python py1_RPKM_on_bindings_write_slurm.py 
+1696	 for i in f1_slurm/*.slurm;do sbatch $i;done
+1743	 python py2_combine_RPKM_log_QN.py &

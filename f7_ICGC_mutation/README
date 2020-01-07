@@ -1,0 +1,24 @@
+averaged mutation rate for piped up CTCFs
+then further averaged within each bin
+
+==
+T_ALL
+
+results on new union CTCFs, but the mutations were called using old union CTCFs
+
+
+
+
+==
+T_ALL_new
+
+results on new union CTCFs using newly called mutation results
+-- email on Oct 17, 2019
+
+The zipped folder ctcf_sites_output.tar.gz has the updated alterations in each cell line that overlap the new binding sites. The columns in the files are the chromosome, 1-based position on hg38, reference allele, alternate allele, and genotype call for the sample.
+
+ I am attaching an updated CTCF gene mutation list too. Most of the stuff in this should be unchanged, but I used the updated annotations (cache version 95 for Ensembl). The “Consequence” column annotates the mutations based on this dictionary: https://useast.ensembl.org/info/genome/variation/prediction/predicted_data.html. “HGVSp” tells you about the protein change (if any). “Exsiting variation” refers to Rs numbers in dbSNP, or COSM numbers in COSMIC if this variant is seen elsewhere. MAX_AF is the maximum allele frequency of the variant in any population group in 1000 Genomes, ExAC and gnomAD. CADD_PHRED is the phred-scaled measure of deleteriousness. MOTIF_ are some annotations pertaining to regulatory variants, which in this case are not found. Remember this is the canonical transcript which is ENST00000646076.  
+
+Also attached is another excel spreadsheet for NOTCH1 (canonical transcript ENST00000277541) with the same columns.
+
+

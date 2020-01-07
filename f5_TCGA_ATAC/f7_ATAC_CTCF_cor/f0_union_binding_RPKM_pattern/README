@@ -1,0 +1,14 @@
+py1_find_DNA_methylated_regions.py
+	find union binding CTCFs with DNA methylation in Jurkat
+	
+py2_No_DNAme_with_motif_regions.py
+	find union binding CTCFs with motif and DO NOT have DNA methylation in Jurkat
+
+run3_Jurkat_ATAC_data.sh
+	Jurkat ATAC peaks and raw reads
+	
+
+run4_RPKM_on_Union.slurm
+run5_pattern_on_Union.slurm
+	CTCF and ATAC binding signal (RPKM and pattern) on union binding
+	

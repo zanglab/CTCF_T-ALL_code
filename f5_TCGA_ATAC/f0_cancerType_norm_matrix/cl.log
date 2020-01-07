@@ -1,0 +1,6 @@
+1132	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/data/Count_matrices/mynorm_TCGA-ATAC_PanCan_Log2_QuantileNorm_Counts_plus5.txt .
+1139	 mkdir TCGA-ATAC_Cancer_Type-specific_PeakCalls_sub
+1140	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/data/Peak_calls/TCGA-ATAC_Cancer_Type-specific_PeakCalls/BRCA_peakCalls.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls_sub/
+1141	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/data/Peak_calls/TCGA-ATAC_Cancer_Type-specific_PeakCalls/COAD_peakCalls.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls_sub/
+1142	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/data/Peak_calls/TCGA-ATAC_Cancer_Type-specific_PeakCalls/LUAD_peakCalls.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls_sub/
+1143	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/data/Peak_calls/TCGA-ATAC_Cancer_Type-specific_PeakCalls/PRAD_peakCalls.txt TCGA-ATAC_Cancer_Type-specific_PeakCalls_sub/

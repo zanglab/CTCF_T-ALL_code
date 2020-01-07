@@ -1,0 +1,18 @@
+f1_high_cor_high_logFC_regions
+	logFC Hi-C interaction of intra-domain region
+
+f2_high_cor_high_logFC_increased_decreased
+f2_high_cor_high_logFC_increased_decreased_saved_20191030
+	identify interaction increased regions
+	
+	
+f2_high_cor_high_logFC_increased_layouts
+	figure layout fig
+	
+f3_tf_enrichment_analysis
+f4_scatter_plot
+	UDHS-fisher based TF enrichment analysis
+	
+	
+f5_tf_enrichment_analysis_bart_region
+	BART region TF enrichment

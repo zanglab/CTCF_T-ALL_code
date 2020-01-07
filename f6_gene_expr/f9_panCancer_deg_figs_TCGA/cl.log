@@ -1,0 +1,2 @@
+1022	 cp ../f7_panCancer_deg_figs/*.py . 
+1023	 cp ../f7_panCancer_deg_figs/*.slurm .

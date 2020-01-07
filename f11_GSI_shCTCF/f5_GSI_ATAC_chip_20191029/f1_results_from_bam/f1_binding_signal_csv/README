@@ -1,0 +1,21 @@
+out_run4.log
+	binding RPKM on union CTCF, w/ e200, e500 and binding sites
+	
+	
+out_run5.log
+	binding pattern, w=1kb each side
+	
+	
+py6_binding_changes.py
+	RPKM binding changes comparing dmso vs. gsi vs. washout
+	sqrt(A/A_med) - sqrt(B/B_med)
+
+	try to normalize on ATAC peak overlapped union CTCFs
+
+
+py7_binding_changes_QN.py
+	use quantile normalization for fold change
+	
+	
+py8_binding_changes_col_row_norm.py
+	use col/row norm for fold change

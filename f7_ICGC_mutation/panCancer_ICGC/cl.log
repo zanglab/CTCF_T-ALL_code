@@ -1,0 +1,8 @@
+1060	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/mutation/panCancer_ICGC/f3_PanCancer_CTCF_mutation_rate_UnionAsCtrl/*py .
+1087	 sbatch run_py1.slurm 
+1096	 python py2_cancer_type_binding_mutation_compr.py &
+1111	 python py3_mutation_compr_plot.py 
+1138	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/mutation/panCancer_ICGC/f2_motif_matrix_score_change/py1_get_mutation_matrix_score.py py6_get_mutation_matrix_score.py 
+1139	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/mutation/panCancer_ICGC/f2_motif_matrix_score_change/py2_mutation_change_score_figs.py py7_mutation_change_score_figs.py 
+1146	 python py6_get_mutation_matrix_score.py &
+1178	 python py7_mutation_change_score_figs.py 

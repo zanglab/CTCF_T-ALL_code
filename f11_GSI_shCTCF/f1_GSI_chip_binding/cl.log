@@ -1,0 +1,3 @@
+1244	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI/f2_binding_signal_change_fc/f1_get_binding_signals/get_RPKM_on_regions_readcount.py /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI/f2_binding_signal_change_fc/f1_get_binding_signals/run_get_signal.slurm .
+1246	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI/f3_dynamic_CTCF_binding_identification/3_dynamic_CTCF_identification_MA_logFC_log2.py .
+1249	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI/f4_dynamic_CTCF_notch_hic_interaction/1_dynamic_regions_notch_enrichment_gained_bidings_log2_layouts.py .

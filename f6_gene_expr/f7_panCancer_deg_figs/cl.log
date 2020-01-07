@@ -1,0 +1,5 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/fu_all_feature_analysis_panCancer/3_cancer_specific_binding_intra_domain_deg.py .
+
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f3_ctcf_gene_domain_cor_union_geneExpr_100k_1M_domain/1_CTCF_gene_domain_cor.py .
+
+1356	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/fu_all_feature_analysis_panCancer/4_cancer_specific_binding_intra_domain_hicor.py 6_cancer_specific_binding_intra_domain_hicor.py

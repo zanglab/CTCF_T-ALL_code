@@ -1,0 +1,7 @@
+patient data:
+/nv/vol190/zanglab/zw5j/projects_data/T_ALL_CTCF_panos/panos/DNA-methylation/Patient/
+
+.cov files
+<chromosome> <start position> <end position> <methylation percentage> <count methylated> <count unmethylated>
+
+

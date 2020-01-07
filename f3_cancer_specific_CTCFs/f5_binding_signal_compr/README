@@ -1,0 +1,6 @@
+1_TALL_gained_lost_binding_signal_compr.py
+	example showing normalized binding signals of T-ALL gained vs. constitutive/lost 
+	example showing normalized binding signals of T-ALL lost vs. constitutive/gained 
+
+3_cancerType_gained_constitutive_signal_compr.py
+	compare the binding signals of gained vs. constitutive CTCFs in cancer cells for each cancer type

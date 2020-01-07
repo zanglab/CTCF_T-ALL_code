@@ -1,0 +1,11 @@
+f0_SMARCA4_union_binding  
+	AML SMARCA4 binding on union CTCF
+	
+f1_binding_compr_box 
+	compr SMARCA4 binding using box plots
+	 
+f2_AML_site_plot
+	-- compr SMARCA4 binding using site plots
+	-- regenerate the binding pattern near CTCFs
+	-- does not use the results in f0/f1	
+	

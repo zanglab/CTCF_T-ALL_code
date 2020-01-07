@@ -1,0 +1,40 @@
+list of gained CTCF, nearest NOTCH1, and NOTCH1 target genes (GSI/shCTCF sensitive)
+	for each CTCF, find intra-domain notch, dynamic-notch binding sites and positions
+pariwise distances of CTCF, NOTCH1 and target genes
+
+
+1_run_overlap.slurm
+	get intra-domain notch binding centers and dynamic notch binding centers for each of T-ALL gained CTCF
+	
+2_T-ALL_gained_notch_hic_interaction.py
+	for each CTCF and each of its intra-domain notch binding
+	get ctcf-notch vs. ctcf-intra-domain-bin hic-interaction in CUTLL1 and T cell
+	
+4_interaction_compr_zscore.py
+	for each CTCF and each of its intra-domain notch binding
+	get ctcf-notch hic-interaction z-score comparing ctcf-intra-domain-bin hic-interaction
+	in CUTLL1 and T-cell
+	
+	keep the NOTCH1 binding with highest hic-interaction z-score changes for each CTCF
+	
+	
+5_get_ctcf_notch_bed_file.sh
+	generate a bed file showing the NOTCH1 position with highest hic-interaction z-score changes for each CTCF
+	
+
+6_ctcf_notch_targetGene_master_table.py
+	generate a table to include
+	CTCF position, annotation
+	NOTCH position of the notch binding with highest hic-interaction z-score changes with CTCF
+	for each intra-domain gene, get
+		gene position, gb-start, gb-end, whether is DEG in CUTLL1 vs. T cell, shCTCF, GSI, etc...
+		distance of CTCF-gene
+		distance of NOTCH-gene
+		
+7_CTCF_notch_targetGene_distance_plot.py
+	for each CTCF-NOTCH1-gene triplet
+	compare distance between NOTCH-gene vs. CTCF-gene
+
+
+
+

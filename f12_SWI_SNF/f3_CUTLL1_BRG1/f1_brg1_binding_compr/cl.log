@@ -1,0 +1,4 @@
+sbatch run_get_pattern_CUTLL1_BRG1_ChIP.slurm
+sbatch run_get_pattern_TALL_CTCF_ChIP.slurm
+
+python py2_chip_binding_compr_CTCF_types.py

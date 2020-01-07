@@ -1,0 +1,11 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/11_HiC_analysis/f1_preprocess/union_binding_processed_data/panos/union_binding_view2M_interaction/2_union_binding_view2M_bothside_interaction.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/11_HiC_analysis/f1_preprocess/union_binding_processed_data/panos/union_binding_view2M_interaction/1_get_completed_view2M_interaction.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/11_HiC_analysis/f1_preprocess/union_binding_processed_data/panos/transformed_matrix/hicpro_matrix_to_jurcer_matrix_format.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/11_HiC_analysis/f1_preprocess/union_binding_processed_data/panos/transformed_matrix/run_transform1.slurm run_transform.slurm
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/11_HiC_analysis/f1_preprocess/union_binding_processed_data/Public/union_binding_view2M_interaction/write_slurm_py1.py .
+
+====
+sbatch run_transform1.slurm
+sbatch run_transform2.slurm
+python write_slurm_py1.py 
+for i in py1_slurms/*.slurm;do sbatch $i;done

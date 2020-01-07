@@ -1,0 +1,4 @@
+for each cancer type & gained/lost binding
+	collect averaged normalized ATAC signal from multiple .bam samples for each patient -- py1
+	rank patient samples by accessibility in each region/row -- py2
+	merge ranked patient samples with clinical info -- py3

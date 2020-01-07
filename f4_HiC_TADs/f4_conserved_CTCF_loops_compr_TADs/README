@@ -1,0 +1,30 @@
+conserved Hi-C boundaries are downloaded from 
+			Hu/ming -- HiC-boundary DB, 16'paper NG
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5478386/
+
+	supp TableS3
+
+====
+generate domain boundaries from Hi-C data
+====
+hic_domain_merged file was generated using Hi-C boundaries(40kb bin) generated from 21 cell lines
+then merge those regions within 200kb with each other
+
+
+====
+collect domain boundary constitutive CTCFs
+& merge into putative boundaries
+====
+
+collect all constitutive CTCFs that are directly used as domain boundaries in our prediction
+
+THEN
+
+to keep consistency, merge all constitutive boundaries using same criteria
+-- extend to 40kb bin
+-- merge bins within 200kb with each other
+
+====
+overlap between Hi-C boundaries and constitutive CTCF boundaries
+====
+

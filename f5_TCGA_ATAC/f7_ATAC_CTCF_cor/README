@@ -1,0 +1,39 @@
+====
+f0_union_binding_RPKM_pattern  
+====
+
+	get the CTCF/ATAC binding RPKM on union CTCFs
+		-- union binding sites
+		-- centered at motif position with 200bp expand on each side
+		
+	get the CTCF/ATAC binding pattern on union CTCFs
+		-- centered at motif position, 1000bp each side with 100 bins (per 20bp = 2kb/100)
+
+
+====
+f1_compr_NoDnaMe_withMotif
+====
+
+	init comparison of CTCF vs. ATAC RPKM on 
+	-- union CTCFs
+	-- No Jurkat DNA methylation
+	-- with motif
+	-- overlap ATAC peaks
+
+
+====
+f2_compr_by_JurkatCTCF_by_motif_score
+====
+
+	separate CTCF binding by
+	-- if overlapped Jurkat CTCfs
+	-- using motif cutoff 1e-6
+
+====
+f3_TF_enrichment_analysis
+====
+
+	for those open chromatin, with motif, no DNA methylation, no CTCF binding regions
+	do a bart based TF enrichemtn analysis
+	
+

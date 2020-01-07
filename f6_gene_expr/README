@@ -1,0 +1,31 @@
+f0_tables  
+	tables for matched RNA-seq datasets and ChIP-seq datasets
+	supplementary table 6
+	
+f1_RNA_process  
+	process new added RNA-seq datasets
+	
+f2_gene_expr_TPM  
+	combined/averaged expression/sqrt(TPM) for cell types
+	
+f3_CTCF_chip_RPKM  
+	combined/averaged CTCF binding/sqrt(RPKM) for cell types
+	
+f4_gene_CTCF_matrices  
+	matrices of CTCF/gene pairwise distance/correlation/domain 
+		○ f8_cor_ID_convert  is the final results using NATURAL SORTED binding IDs
+
+	
+f5_gene_CTCF_cor_figs
+	scatter plot of CTCF/gene R^2
+	genome wide inter/intra-domain CTCF/gene correlation across all 54 cell types
+
+f6_panCancer_DEG
+	identify cancer specific DEG
+	using matched cell line and tissue expression data
+f7_panCancer_deg_figs
+	figs comparing gene expression pattern near cancer specific binding sites
+
+f8_panCancer_DEG_TCGA
+f9_panCancer_deg_figs_TCGA
+	same as in f6 and f7, use TCGA expression data

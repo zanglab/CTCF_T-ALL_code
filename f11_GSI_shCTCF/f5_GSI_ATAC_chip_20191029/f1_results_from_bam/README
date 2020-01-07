@@ -1,0 +1,12 @@
+f1_binding_signal_csv
+	get ATAC signal on CTCF unions
+	sqrt(A/A_med)-sqrt(B/B_med)
+	QN
+	col+row norm
+
+f2_gained_CTCF_accessibility_dynamics
+	check if T-ALL gained CTCF have dynamic binding changes
+	
+f3_gained_CTCF_RPKM_compr
+	directly compare the RPKM changes (box) of gained bindings (with motif)	
+	paired t-test

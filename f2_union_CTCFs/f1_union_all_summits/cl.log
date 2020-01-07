@@ -1,0 +1,8 @@
+sbatch run1_cat_peaks.slurm  
+sbatch run2_summit_awk.slurm
+sbatch run_py3.slurm 
+
+## under folder f1_peak2000_datasets_union_summits
+bedtools sort -i union_summits_fe4_width_150.bed |grep -v chrM |awk '{OFS="\t";print$1,$2,$3,NR,$5,$6}' > union_summits_fe4_width_150_sorted.bed
+
+python py4_return_summit_intervals.py  -i f1_peak2000_datasets_union_summits/collection_all_CTCF_narrowPeak.bed &

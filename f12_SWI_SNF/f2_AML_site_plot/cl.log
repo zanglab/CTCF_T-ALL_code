@@ -1,0 +1,4 @@
+1038	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/22_SWI_SNF/f2_ChIP_binding_composite/get_pattern_near_site_readcount_write_out.py .
+1039	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/22_SWI_SNF/f2_ChIP_binding_composite/py2_chip_binding_compr_CTCF_types.py .
+1040	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/22_SWI_SNF/f2_ChIP_binding_composite/slurm_out_f1/EOL1_SMARCA4_Naive_EOL1_SMARCA4_Naive_ChIP-Seq.slurm .
+1043	 mv EOL1_SMARCA4_Naive_EOL1_SMARCA4_Naive_ChIP-Seq.slurm run_get_pattern_EOL1_SMARCA4_ChIP.slurm

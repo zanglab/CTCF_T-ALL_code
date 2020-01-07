@@ -1,0 +1,11 @@
+1005	 python 2_srr_download.py > run_py2.slurm
+1008	 nv run_py2.slurm run_py2_line1-350.slurm 
+1014	 cp run_py2_line1-350.slurm run_py2_line350-700.slurm 
+1015	 cp run_py2_line350-700.slurm run_py2_line700-last.slurm
+
+1047	 python 3_srr_to_fq.py > run_py3.slurm
+1094	 mv run_py3.slurm run_py3_line1-200.slurm
+1095	 cp run_py3_line1-200.slurm run_py3_line200-400.slurm
+1096	 cp run_py3_line1-200.slurm run_py3_line400-last.slurm
+1235	 python 4_fq_cat_sep_srr.py > run_py4_cat.slurm
+python 4b_fq_rename.py > out_py4b.sh 

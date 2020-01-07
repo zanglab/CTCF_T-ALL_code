@@ -1,0 +1,6 @@
+f1_ATAC_sig_abstract
+	use cancer specific ATAC peaks (panCancer overlap peak from each cancer type) overlap cancer specific CTCFs
+
+f2_ATAC_sig_abstract_panCancer_saved
+	use panCancer ATAC peaks overlap cancer specific CTCFs
+

@@ -1,0 +1,5 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f10_TF_binding/f3_TALL_Notch/f1_ctcf_notch_enrichment/f1_notch_myc_enrichment/find_overlap_keep_info_NOT_sep_strand_lastColMarked_notch_revised.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f10_TF_binding/f3_TALL_Notch/f1_ctcf_notch_enrichment/f1_notch_myc_enrichment/run_overlap.slurm .
+cp /nv/vol190//zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f10_TF_binding/f3_TALL_Notch/f3_ctcf_notch_HiC_interaction/2_T-ALL_gained_lost_notch_hic_interaction.py .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f10_TF_binding/f3_TALL_Notch/f3_ctcf_notch_HiC_interaction/4_interaction_compr_zscore.py  .
+tail -n +2 f4_interaction_compr_zscores/raw_T-ALL_gained_zscore_delta_change_filtered.txt|awk '{OFS="\t";print$2,$4-10,$4+10,$1,$NF}'> f5_ctcf_notch_bed_file/gaiend_CTCF_hic_increased_notch.bed 

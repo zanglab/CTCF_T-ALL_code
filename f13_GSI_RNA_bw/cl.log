@@ -1,0 +1,4 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI_RNA_seq_new/f0_RNA_ori/process_RNA_qc_salmon/salmon_match_name_list_cutll1.txt .
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI_RNA_seq_new/f0_RNA_ori/process_RNA_qc_salmon/salmon_match_name_list_jurkat.txt .
+sbatch slurm_out/Jurkat_GSI3d_rep1.slurm
+1199	 rm -rf processed_results/Jurkat_GSI3d_rep1/*

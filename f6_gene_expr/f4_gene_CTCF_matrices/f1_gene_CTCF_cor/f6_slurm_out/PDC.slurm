@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH -n 1
+#SBATCH --mem=4000
+#SBATCH -t 24:00:00
+#SBATCH -p standard
+#SBATCH -A zanglab
+#SBATCH -o PDC.out
+
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDC 
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDCD1 
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDCD10 
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDCD11 
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDCD1LG2 
+time python ../7_cor_CTCF_binding_GeneExpr.py -i PDCD2 

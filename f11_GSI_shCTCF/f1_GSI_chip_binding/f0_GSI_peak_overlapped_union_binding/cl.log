@@ -1,0 +1,6 @@
+1291	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f6_Jurkat_GSI/f0_QC/Jurkat_GSI_chilin_out/*/*sort_peaks.narrowPeak.bed .
+1297	 rm *rep*
+1299	 rm *inpu*
+1301	 cat *.bed > all_peak.bed
+1305	 cp /nv/vol190/zanglab/zw5j/scripts/Modules/find_overlap_keep_info_NOT_sep_strand.py .
+1308	 python find_overlap_keep_info_NOT_sep_strand.py -a /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f2_union_CTCFs/fz_union_combination/f2_union_binding_data/union_binding_occupancy_score_GT3.bed  -b all_peak.bed  -s hg38 -p union_binding_GSI_peak_overlapped.bed

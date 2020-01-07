@@ -1,0 +1,23 @@
+py1_dNOTCH_gainedCTCF_gene_expr_data.py  
+	○ gene expression changed in CUTLL1 vs. T cell of &
+	  gene expression changed in T-ALL vs. T cell of
+			§ all genes vs. 
+			§ dynamic NOTCH intra-domain genes vs.  -- Group A
+			§ dynamic NOTCH + gained CTCF intra-domain genes -- Group B
+
+py2_dNOTCH_gainedCTCF_gene_expr_plot.py
+	expression log2FC in T-ALL vs. T cell
+	
+py2_dNOTCH_gainedCTCF_gene_expr_plot.py.barplot.saved
+	plot of py1 results
+
+
+py3_dNOTCH_gainedCTCF_expr_shCTCF_sep_hic_interaction.py
+	expression of CUTLL1 up-regulated Group B genes in shCTCF experiment w/
+		increased intra domain CTCF/NOTCH Hi-C interaction in T-ALL CUTLL1 vs. T cell
+		decreased intra domain CTCF/NOTCH Hi-C interaction in T-ALL CUTLL1 vs. T cell
+
+
+py4_dNOTCH_gainedCTCF_expr_shCTCF_sep_hic_interaction_plot.py
+	expression log2FC in shCTCF vs. control
+

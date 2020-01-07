@@ -1,0 +1,6 @@
+cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f2_union_CTCFs/f1_union_all_summits/f1_peak2000_datasets_union_summits/union_summits_fe4_width_150_sorted_natural.bed .
+
+bedtools sort -i union_summits_fe4_width_150_sorted_natural.bed |awk '{OFS="\t";print$0,NR}'> union_summits_fe4_width_150_4thCol_NewNaturalID_LastCol_BedtoolSortID.bed 
+
+
+

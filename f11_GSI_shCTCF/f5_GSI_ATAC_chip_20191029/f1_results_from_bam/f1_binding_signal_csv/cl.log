@@ -1,0 +1,2 @@
+1097	 cp ../../../../f5_TCGA_ATAC/f7_ATAC_CTCF_cor/f0_union_binding_RPKM_pattern/*.slurm .
+1098	 cp ../../../../f5_TCGA_ATAC/f7_ATAC_CTCF_cor/f0_union_binding_RPKM_pattern/*.py .

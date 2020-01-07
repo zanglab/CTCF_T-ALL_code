@@ -1,0 +1,17 @@
+cancer_type_CTCF_target_genes
+	deg within the same domain of cancer-specific CTCFs
+
+ctcf_crispr_screens_PMID31727847
+	check enrichment of essential genes/CTCFs
+
+ctcf_heatmap_DNAme_mutation
+	re-plot the heatmap comparing CTCF ChIP and diff. DNA me.
+
+ctcf_TALL_with_SMC3
+	heatmap of CTCF ChIP + SMC3 ChIP
+
+union_binding_features
+	meta figs of union CTCF bindings
+
+
+

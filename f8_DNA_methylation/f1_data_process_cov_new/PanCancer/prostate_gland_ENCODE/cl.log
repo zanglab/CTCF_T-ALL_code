@@ -1,0 +1,3 @@
+1431	 cat ENCFF027KTR.bed |awk '{OFS="\t";if($5>5) print$1,$2,$3,$NF}' > ENCFF027KTR.bdg
+1432	 mv ENCFF027KTR.bdg ENCFF027KTR_cov5.bdg
+1433	 bedtools sort -i ENCFF027KTR_cov5.bdg > ENCFF027KTR_cov5_sorted.bdg 

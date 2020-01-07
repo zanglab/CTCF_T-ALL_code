@@ -1,0 +1,1 @@
+1032	 cat */*/*.narrowPeak > GSI_ATAC_peak.narrowPeak

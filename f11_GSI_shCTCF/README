@@ -1,0 +1,17 @@
+
+==
+f1_GSI_chip_binding  
+==
+
+	ChIP-seq binding changes of 
+	-- T-ALL gained CTCFs, vs. 
+	-- All T-ALL-GSI CTCF peaks
+	under GSI/wo treatment
+
+==
+f2_shCTCF_TALL_gained
+==
+	enrichment of shCTCF down-regulated genes of T-ALL gained CTCF intra-domain target genes
+
+
+

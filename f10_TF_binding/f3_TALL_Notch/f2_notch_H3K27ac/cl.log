@@ -1,0 +1,1 @@
+1132	 for i in f1_slurm/*.slurm;do sbatch $i;done

@@ -1,0 +1,11 @@
+f6_slurm_out
+	slurm for genes to get gene/CTCF correlation
+	
+f6_slurm_out_append
+	check if all genes have correct output and write slurm for the unfinished ones
+
+f7_cor_CTCF_binding_geneExpr
+	CTCF-gene correlation for each gene, using the old bedtools sorted IDs
+
+f8_cor_ID_convert
+	convert all files using new natural sorted IDs

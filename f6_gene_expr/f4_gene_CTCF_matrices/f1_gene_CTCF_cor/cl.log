@@ -1,0 +1,7 @@
+1047	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/10_CTCF_binding_signals_vs_gene_expression/f4_CTCF_cor_gene_cancer_vs_normal/f3_ctcf_binding_GeneExpr_cor/7_cor_CTCF_binding_GeneExpr.py .
+
+1048	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/10_CTCF_binding_signals_vs_gene_expression/f4_CTCF_cor_gene_cancer_vs_normal/f3_ctcf_binding_GeneExpr_cor/6_cor_CTCF_binding_GeneExpr_write_slurm.py .
+
+for i in  f6_slurm_out_append/*.out;do echo -n $i ; tail -n 1 $i;done|grep -v sys
+
+

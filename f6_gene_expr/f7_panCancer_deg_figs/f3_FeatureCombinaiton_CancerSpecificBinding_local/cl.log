@@ -1,0 +1,8 @@
+1085	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/fu_feature_combination/py2_combine_all_features_sep_cancerType.py .
+1263	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f3_cancer_specific_gained_lost/py1_identify_cancer_specific_bindings.py py3_identify_cancer_specific_bindings.py
+
+sh run_py2.sh
+python py3_identify_cancer_specific_bindings.py > out_py3.log
+
+sh run_py4.sh
+python py5_identify_cancer_specific_bindings_TALL_patients.py > out_py5.log

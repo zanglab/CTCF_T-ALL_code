@@ -1,0 +1,8 @@
+1303	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f11_histone_modification/f1_getPpattern_on_union_bindings/*.py .
+1396	 python py1_write_out_slurm_append.py
+1397	 for i in f0_slurm_append1/*.slurm;do sbatch $i;done
+1448	 python py1_write_out_slurm_append.py 
+1449	 for i in f0_slurm_append2/*.slurm;do sbatch $i;done
+1448	 python py1_write_out_slurm_append.py 
+1423	 cat f0_slurm_append3/*
+1426	 for i in f0_slurm_append3/*.slurm;do sbatch $i;done

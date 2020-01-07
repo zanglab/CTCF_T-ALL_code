@@ -1,0 +1,28 @@
+f1_ATAC_sig_caseID_differential_score
+	for each sample/col in ATAC data, find match ID of patient sample
+	
+f2_ATAC_sample_irwin_hall
+	rank patient sample by accessibility in each peak
+	get rank-sum for each patient
+	
+f3_combined_ATAC_sig_diff_score_and_clinical_info
+	combine ATAC rank-sum info with clinical data
+	
+f5_survival_figs_gained
+	survival analysis using patient groups sep by accessibility on gained binding
+
+f6_survival_figs_lost
+	survival analysis using patient groups sep by accessibility on lost binding
+
+
+===
+there are some format problem in reading the latest clinical data
+use the JSON files instead of TSV files
+
+f7_combined_ATAC_sig_diff_score_and_clinical_info_JSON
+	combine ATAC rank-sum info with clinical data
+	
+f8_survival_figs_gained_JSON
+	survival analysis using patient groups sep by accessibility on gained binding
+
+f9_survival_figs_lost_JSON

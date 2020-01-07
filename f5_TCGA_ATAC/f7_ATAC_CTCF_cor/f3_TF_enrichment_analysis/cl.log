@@ -1,0 +1,4 @@
+1123	 cp ../f2_compr_by_JurkatCTCF_by_motif_score/f2_scatter_by_Jurkat_CTCF_by_motif/*.csv data/
+1125	 cp ../f0_union_binding_RPKM_pattern/data/union_CTCF_No_Jurkat_DNAmethylation_with_motif_ATAC_peak_overlapped* data/
+1153	 cp /nv/vol190/zanglab/zw5j/scripts/pipeline/udhs_tf_enrichment/hg38_DC2017/*.py .
+1154	 cp /nv/vol190/zanglab/zw5j/scripts/pipeline/udhs_tf_enrichment/hg38_DC2017/*.sh .

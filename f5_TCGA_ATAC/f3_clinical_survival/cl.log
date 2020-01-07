@@ -1,0 +1,5 @@
+python py1_TCGA_ATAC_sig_caseID_avg_sig.py
+python py2_Irwin_Hall_caseID_openness_compr.py
+python py3_caseID_rank_sum_clinical_info_matched.py
+python py5_survival_plot_gained.py
+python py6_survival_plot_lost.py

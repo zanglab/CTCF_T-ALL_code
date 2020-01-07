@@ -1,0 +1,13 @@
+f1_data_process_cov_new
+	re-process previous DNA-methylation data (Public and data from Panos)
+	process .cov data to .bdg data 
+
+f2_union_binding_methylation_compr
+	collect the methylation state in a 300bp region centered at each CTCF binding
+	then compare between cancer vs. normal
+
+f3_DNAme_change_bar_plot
+	for new results/plots used in manuscript, please see 
+	/nv/vol190//zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/fz_figures/ctcf_heatmap_DNAme_mutation/data/plot_data_DNAme_changes_rank_by_methylation 
+
+

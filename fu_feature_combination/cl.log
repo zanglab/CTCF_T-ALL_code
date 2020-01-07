@@ -1,0 +1,2 @@
+1019	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/fw_combine_all_feature_panCancer/2_combine_all_features_union_geneExpr.py py2_combine_all_features_sep_cancerType.py
+1158	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f3_cancer_specific_CTCFs/f3_cancer_specific_gained_lost/py1_identify_cancer_specific_bindings.py .py3_identify_cancer_specific_bindings.py

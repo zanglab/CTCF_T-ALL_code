@@ -1,0 +1,7 @@
+1011	 cp ../T_ALL/*.py .
+1021	 python py1_mutation_around_CTCFs.py 
+1022	 python py2_cancer_type_binding_mutation_compr.py 
+1023	 python py3_mutation_compr_plot.py 
+1024	 python py5_plot_from_mid_pos.py 
+1025	 python py6_get_mutation_matrix_score.py 
+1026	 python py7_mutation_change_score_figs.py 

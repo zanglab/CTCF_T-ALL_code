@@ -1,0 +1,1 @@
+1140	 cat GSM2579642_HCT116.control.WGBS.run1_val_1.fq_bismark_bt2_pe.bismark.cov_countfilter_5.bdg GSM2579643_HCT116.control.WGBS.run2_val_1.fq_bismark_bt2_pe.bismark.cov_countfilter_5.bdg > GSM257964x_HCT116.control.WGBS.bdg

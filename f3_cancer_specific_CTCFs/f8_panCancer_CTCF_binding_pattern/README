@@ -1,0 +1,8 @@
+f1_CTCF_pattern_mid_position_2kb  
+	CTCF binding signal/RPKM near each CTCF middle position
+
+f2_CTCF_pattern_combined  
+	keep only thoes RPKM on cancer specific gained/lost bindings
+
+f3_cancerType_CTCF_heatmap
+	plot the heatmap

@@ -1,0 +1,8 @@
+1766	 cp ../f5_TALL_ATAC_RPKM/*.py .
+1773	 rename _RPKM_ _raw_count_ *
+1774	 ll
+1782	 python py1_raw_count_on_bindings_write_slurm.py 
+1784	 for i in f1_slurm/*.slurm;do sbatch $i;done
+1798	 python py2_combine_raw_count_log_QN.py 
+1802	 python py3_T-ALL_ATAC_compr_plot.py &
+1803	 fc -l -1 >> cl.log 

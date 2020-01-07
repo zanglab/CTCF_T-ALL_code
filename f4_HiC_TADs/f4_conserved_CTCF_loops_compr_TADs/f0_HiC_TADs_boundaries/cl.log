@@ -1,0 +1,2 @@
+1163	 python bedfile_merge_revised.py -a hic_boundary.bed  -p hic_domain_boundary_merge_200k_hg19.bed  -s hg38
+1168	 liftOver hic_domain_boundary_merge_200k_hg19.bed /nv/vol190/zanglab/zw5j/data/liftover/hg19ToHg38.over.chain hic_domain_boundary_merge_200k_hg38.bed unmapped 

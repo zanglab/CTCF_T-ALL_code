@@ -1,0 +1,9 @@
+1, cat all peaks
+2, get summit positins
+	f1_peak2000_datasets_union_summits/collection_all_CTCF_summits.bed
+	chr, summits, summits+1, N, foldchange, strand, -log10qvalue
+3, union all peaks
+4, get all summit intervals
+
+
+

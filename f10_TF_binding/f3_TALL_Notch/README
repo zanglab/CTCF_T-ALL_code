@@ -1,0 +1,40 @@
+f1_ctcf_notch_enrichment 	            
+f2_notch_H3K27ac              
+f3_ctcf_notch_HiC_interaction
+f4_ctcf_notch_pairwise_dis
+
+
+f5_CTCF_notch_targetGene
+	list of gained CTCF, nearest NOTCH1, and NOTCH1 target genes (GSI/shCTCF sensitive)
+	for each CTCF, find intra-domain notch, dynamic-notch binding sites and positions
+	pariwise distances of CTCF, NOTCH1 and target genes
+
+
+f6_CTCF_dynamic_notch_targetGene
+	same as in f5, using dynamic NOTCH1
+	pariwise distances of CTCF, dynamic NOTCH1 and target genes
+
+
+f7_CTCF_intra_domain_DEG
+	intra domain DEG .txt/.bed/IGV files
+
+f8_gained_CTCF_NOTCH1_density
+	NOTCH1 binding density
+	#intra-domain NOTCH1 binding 
+
+
+f9_dynamicNOTCH_gained_CTCF_gene_expr
+	gene expression changed in T-ALL vs. T cell of
+	all genes vs. 
+	dynamic NOTCH intra-domain genes vs. 
+	dynamic NOTCH + gained CTCF intra-domain genes 
+
+	gene expression changes in shCTCF vs. ctrl of 
+	dynamic NOTCH + gained CTCF intra-domain genes, by whether 
+	dynamic NOTCH and gained CTCF has increased Hi-C interaction
+
+f10_dynamicNOTCH_targetGene_hic_interaction
+	hic-interaction changes in T-ALL vs. T cell of 
+	dynamic notch1 binding vs. intra-domain target gene
+	
+	

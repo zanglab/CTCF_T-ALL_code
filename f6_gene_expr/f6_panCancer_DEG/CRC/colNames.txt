@@ -1,0 +1,9 @@
+id	name	condition
+HCT116_rep1	HCT116_rep1	cancer
+HCT116_rep2	HCT116_rep2	cancer
+sigmoid_colon_S1	sigmoid_colon_S1	normal
+sigmoid_colon_S2	sigmoid_colon_S2	normal
+sigmoid_colon_S3	sigmoid_colon_S3	normal
+sigmoid_colon_S4	sigmoid_colon_S4	normal
+transverse_colon_S1	transverse_colon_S1	normal
+transverse_colon_S2	transverse_colon_S2	normal

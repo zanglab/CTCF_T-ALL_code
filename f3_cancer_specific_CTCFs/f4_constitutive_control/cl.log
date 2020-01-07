@@ -1,0 +1,4 @@
+1058	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f2_bindings_signals_fdr/MA_regression.py .
+1059	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f2_bindings_signals_fdr/4_cancertype_proper_const_ctrl.py .
+1060	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f2_bindings_signals_fdr/5_cancertype_binding_ma_valcano_plot_pancancer_ctrl.py .
+1061	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f2_bindings_signals_fdr/6_cancertype_binding_ma_valcano_plot_cancertype_ctrl.py .

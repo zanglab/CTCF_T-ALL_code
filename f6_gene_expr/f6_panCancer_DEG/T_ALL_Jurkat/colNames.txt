@@ -1,0 +1,8 @@
+id	name	condition
+Jurkat_rep1	Jurkat_rep1	cancer
+Jurkat_rep2	Jurkat_rep2	cancer
+Jurkat_rep3	Jurkat_rep3	cancer
+CD4_A6010	CD4_A6010	normal
+CD4_A6011	CD4_A6011	normal
+CD4_PanT_rep1	CD4_PanT_rep1	normal
+CD4_PanT_rep2	CD4_PanT_rep2	normal

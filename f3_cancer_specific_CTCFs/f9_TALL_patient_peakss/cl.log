@@ -1,0 +1,2 @@
+1394	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f4_patient_peak_overlap/run_overlap.slurm .
+1395	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/12_new_gained_lost_from_all_features/f4_patient_peak_overlap/*.py .

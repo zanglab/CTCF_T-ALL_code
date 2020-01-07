@@ -1,0 +1,10 @@
+1184	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/f3_cancer_specific_CTCF_binding_vs_ATAC_peak/f2_cancer_type_specifi_binding_ATAC_signal_compr/7_cancertype_specific_binding_ATAC_sig_compr_new_with_scatter_layout_by_fc_final.py .
+1186	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/f3_cancer_specific_CTCF_binding_vs_ATAC_peak/f2_cancer_type_specifi_binding_ATAC_signal_compr/1_cancertype_specific_binding_ATAC_sig_abstract.py .
+1196	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/15_TCGA_patient_data/ATAC_seq/f3_cancer_specific_CTCF_binding_vs_ATAC_peak/f2_cancer_type_specifi_binding_ATAC_signal_compr/find_overlap_keep_info_NOT_sep_strand.py .
+
+
+
+python 1_cancertype_specific_binding_ATAC_sig_abstract.py  > py1.out 
+sh py1.out
+
+

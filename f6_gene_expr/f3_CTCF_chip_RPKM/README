@@ -1,0 +1,8 @@
+py1_CTCF_RPKM_QN.py
+	1. CTCF binding levels/RPKM for each dataset on union bindings
+	2. combined/averaged CTCF binding level for each Cell Type on union bindings
+	3. normalized (sqrt of averaged RPKM followed with quantile normalization) for each cell type on union bindings 
+
+
+
+

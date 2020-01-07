@@ -1,0 +1,2 @@
+1065	 cp /nv/vol190/zanglab/zw5j/work2017/T_ALL_CTCF/updated_201906/f6_gene_expr/f4_gene_CTCF_matrices/f2_gene_CTCF_domain/domain_info_for_CTCFs_GT100K_LT1M_EachSide.py py1_get_constitutive_domain_boundaries.py
+1198	 python bedfile_merge_revised.py -a all_CTCF_domainInfo_raw_boundaries.bed -p all_CTCF_domainInfo_raw_boundaries_merged.bed -s hg38 -e 40000
