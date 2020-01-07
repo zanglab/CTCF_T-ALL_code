@@ -105,7 +105,7 @@ mutation
 - pan cancer (bar plot centered at CTCF +/-200bp)
 	- dir	./f7_ICGC_mutation/panCancer_ICGC/f5_from_motif_mid_pos_replot_f3_figs
 	
-- T-ALL (bar plot centered at CTCF)
+- T-ALL (bar plot centered at CTCF +/-200bp)
 	- dir	./f7_ICGC_mutation/T_ALL_new/f5_from_motif_mid_pos_replot_f3_figs
 
 
@@ -143,7 +143,7 @@ correlation of CTCF-gene pairs
 	
 	
 ====
-T-ALLgained NOTCH1 enrichment
+T-ALL gained NOTCH1 enrichment
 ====
 
 - BART prediction (intra-domain of GT100K and LT1M)
@@ -175,10 +175,10 @@ NOTCH1, BAF, CTCF
 - compare ATAC-seq RPKM of T-ALL gained CTCFs in DMSO, GSI and GSI washout
 	- dir	./f11_GSI_shCTCF/f5_GSI_ATAC_chip_20191029/f1_results_from_bam/f3_gained_CTCF_RPKM_compr/
 
-- shCTCF DEG (down genes)  vs. in T-ALL gained CTCFs targets (log2FC<-0.26, FDR<0.001, #987)
+- shCTCF DEG (down genes)  vs. in T-ALL gained CTCFs targets (log2FC<-0.26, FDR<0.001)
 	- dir	./f11_GSI_shCTCF/f2_shCTCF_TALL_gained/f2_figs
 
-- BART prediction of shCTCF DEG (down genes) (log2FC<-0.58, FDR<0.01, #674)
+- BART prediction of shCTCF DEG (down genes) (log2FC<-0.58, FDR<0.01)
 	- dir	./f11_GSI_shCTCF/shCTCF_RNA/f3_shCTCF_DEG_BART/rank_dot_figs/
 
 - shCTCF DEG (down genes) vs. NOTCH1 target genes
@@ -190,7 +190,7 @@ NOTCH1, BAF, CTCF
 - expression in CUTLL1 vs. T-cell of dyNOTCH1 (and gained CTCF) intra-domain genes
 	- dir	./f10_TF_binding/f3_TALL_Notch/f9_dynamicNOTCH_gained_CTCF_gene_expr/f2_dNOTCH_gainedCTCF_figs
 
-- expression of CUTLL1 up-regulated NOTCH1+gained CTCF intra-domain genes in shCTCF, by dyNOTCH ~ gained CTCF Hi-C interaction
+- expression of CUTLL1 up-regulated NOTCH1+gained CTCF intra-domain genes in shCTCF, by dyNOTCH - gained CTCF interaction
 	- dir	./f10_TF_binding/f3_TALL_Notch/f9_dynamicNOTCH_gained_CTCF_gene_expr/f4_dNOTCH_gainedCTCF_expr_in_shCTCF_figs
 
 - SWI/SNF, T-ALL BRG1/CTCF on T-ALL gained
