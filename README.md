@@ -1,4 +1,4 @@
-# NOTES
+# Notes
 
 - This repository contains all source code for analyzing the data and generating the results and figures in the paper: 
 
