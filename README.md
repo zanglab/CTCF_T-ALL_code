@@ -10,5 +10,8 @@ Celestia Fang<sup>\*</sup>, Zhenjia Wang<sup>\*</sup>, Cuijuan Han, Stephanie L.
 
 - For scripts used to generate the figures, please refer to **README_figure.rst**. 
 
+
+# Download
+
 - To download the processed data, including the union of all CTCF binding sites, the constitutive CTCF binding sites, the cancer-specific CTCF binding sites, etc., please check <a href="https://zanglab.github.io/data/cancerCTCF/" target="_blank">here</a>.
 
